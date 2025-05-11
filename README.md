@@ -1,4 +1,5 @@
 # NLP-many-to-many
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,20 +8,21 @@
   <style>
     body {
       font-family: 'Segoe UI', sans-serif;
-      background-color: #f7f7f7;
-      padding: 40px;
-      max-width: 600px;
-      margin: auto;
+      /* Removed fixed background and padding to allow notebook theme to control */
+      /* background-color: #f7f7f7; */
+      /* padding: 40px; */
+      max-width: 600px; /* You can adjust this if needed */
+      margin: auto; /* Centers the content if width is constrained */
     }
     h1 {
-      color: #333;
+      color: #333; /* Default dark color, will be overridden by notebook theme if possible */
     }
     ul {
       list-style-type: none;
       padding: 0;
     }
     li {
-      background: #fff;
+      background: #fff; /* Default white background for items */
       border-radius: 8px;
       padding: 12px 16px;
       margin-bottom: 10px;
@@ -31,7 +33,7 @@
       transition: background 0.2s ease;
     }
     li:hover {
-      background: #e8f0fe;
+      background: #e8f0fe; /* Light blue hover effect */
     }
     input[type="checkbox"] {
       margin-right: 12px;
@@ -60,6 +62,8 @@
   </ul>
 
   <script>
+    // Ensure script runs after the DOM is loaded or wrap in a DOMContentLoaded listener
+    // However, in a Jupyter Markdown cell, this usually runs correctly.
     const tasks = document.querySelectorAll('#taskList li');
     tasks.forEach(task => {
       const checkbox = task.querySelector('input[type="checkbox"]');
