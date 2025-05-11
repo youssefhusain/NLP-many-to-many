@@ -1,8 +1,8 @@
 # 📋 NLP Model Development Checklist
 
-تابع تقدمك خطوة بخطوة:
 
-- [ ] 1. Choose a dataset  
+
+- [X] 1. Choose a dataset  
 - [ ] 2. Download and check the shape of the dataset  
 - [ ] 3. Clean the data if needed (regex)  
 - [ ] 4. Decide the tokenization strategy  
