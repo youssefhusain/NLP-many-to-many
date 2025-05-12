@@ -2,6 +2,7 @@
 
 
 
+
 - [X] 1. Choose a dataset  
 - [X] 2. Download and check the shape of the dataset  
 - [X] 3. Clean the data if needed (regex)  
